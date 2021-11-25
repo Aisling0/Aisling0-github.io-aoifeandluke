@@ -611,11 +611,11 @@ brand.navbar > .container,
 }
 .modal-dialog{
     max-width: 70% !important;
-    height: 50%;
+    height: 90%;
 }
 .modal-body {
     font-family: 'Architects Daughter', cursive;
-    font-size: 28pt;
+    font-size: 18pt;
     margin: 20px;
 }
 #buttonbox {
@@ -707,17 +707,22 @@ section#getintouch {
     padding: 20px 50px 50px 50px;
     min-height: 220px;
 }
+#demo1, #demo2, #demo3{
+    font-size: 18pt;
+}
 #envelopebtn,
 #phonebtn,
 #facebookbtn{
     font-size: 25pt;
-    height: 70px;
-    width: 70px;
-    padding: 10px;
+    height: 170px;
+    width: 170px;
+    padding: 8%;
 }
-li.fa-envelope,
-li.fa-phone{
+.fa-facebook,
+.fa-envelope,
+.fa-phone{
     margin: 3px;
+    font-size: 44pt;
 }
 
 section.contact ul.list-social li.social-email a,
@@ -753,4 +758,7 @@ a.btn:focus{
     background-color: #4F5A6E;
     color: #99A5BA;
     box-shadow: none;
+}
+.aodcontact{
+    font-size: 14pt;
 }
