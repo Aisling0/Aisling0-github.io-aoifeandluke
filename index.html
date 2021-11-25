@@ -38,24 +38,35 @@
 </nav>
 <!-- Masthead-->
 <header class="masthead">
-    <div id="headerBox" class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-        <div class="row">
-            <div class="header-content">
-                <h4 class="header-content-inner">
-                    Dear friends and family,
-                    <br><br>
-                    We are delighted to finally share our joy with you, this beautiful and special moment in our lives. Covid was a really hard time, but we're looking forward to celebrating with everyone on our rescheduled date.
-                    <br><br>
-                    Our original date didn't happen due to covid, leading us to postpone. However, as a glimmer of hope we received the keys to our very own home on the day we were due to be married - so every Covid related cloud has a silver lining.
-                    <br><br>
-                    In order to prepare for the big day, we have created this site. to provide you with important information and accommodation options for our wedding. We hope this answers any questions people may have and we look forward to celebrating our big day with you.
-                    <br><br>
-                    Aoife & Luke x
-                </h4>
+    <div id="buttonbox" class="container">
+        <!-- Button to Open the Modal -->
+            <button id="openbtn" type="button" class="btn" data-toggle="modal" data-target="#myModal">
+                <img id="imgbtn" src="img/letter-bg.png">
+            </button>
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal body -->
+                    <div class="modal-body">Dear friends and family,
+                        <br><br>
+                        We are delighted to finally share our joy with you, this beautiful and special moment in our lives. Covid was a really hard time, but we're looking forward to celebrating with everyone on our rescheduled date.
+                        <br><br>
+                        Our original date didn't happen due to covid, leading us to postpone. However, as a glimmer of hope we received the keys to our very own home on the day we were due to be married - so every Covid related cloud has a silver lining.
+                        <br><br>
+                        In order to prepare for the big day, we have created this site. to provide you with important information and accommodation options for our wedding. We hope this answers any questions people may have and we look forward to celebrating our big day with you.
+                        <br><br>
+                        Aoife & Luke x
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button id="closebtn" type="button" class="btn" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                <!-- End of Invite -->
             </div>
         </div>
     </div>
-    <!-- End of Invite -->
 </header>
 
 <section id="thebigday">
@@ -71,7 +82,7 @@
 <!-- Staying there -->
 <section id="stayingthere">
 <div class="sectiontitle container" style="margin: auto"></div>
-    <div class="container"><h1><img class="headingimg" src="img/blue_wheretostay-bg.png"></h1>
+    <div class="container"><h1><img class="headingimg" src="img/wheretostay.png"></h1>
         <br><br>
         <div class="row">
             <div class="col-md-4 portfolio-item">
@@ -186,16 +197,17 @@
         <br><br>
         <div class="row">
             <div class="col-sm-4 card-body text-center">
-                <a href="#demo1" class="btn" data-toggle="collapse"><i class="fas fa-envelope"></i></a>
+                <a href="#demo1" id="envelopebtn" class="btn" data-toggle="collapse"><i class="fas fa-envelope"></i></a>
                 <br><br>
                 <div id="demo1" class="collapse" >test@test.com</div>
             </div>
-            <div class="col-sm-4 card-body text-center"><a href="#demo2" class="btn" data-toggle="collapse"><i class="fas fa-phone"></i></a>
+            <div class="col-sm-4 card-body text-center">
+                <a href="#demo2" id="phonebtn" class="btn" data-toggle="collapse"><i class="fas fa-phone"></i></a>
                 <br><br>
                 <div id="demo2" class="collapse">086 1234 567</div>
             </div>
             <div class="col-sm-4 card-body text-center">
-                <a href="#demo3" class="btn" data-toggle="collapse"><i class="fab fa-facebook"></i></a>
+                <a href="#demo3" id="facebookbtn" class="btn" data-toggle="collapse"><i class="fab fa-facebook"></i></a>
                 <br><br>
                 <div id="demo3" class="collapse" href="">www.facebook.com</div>
             </div>
