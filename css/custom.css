@@ -85,6 +85,7 @@ p {
     list-style: none;
 }
 .nav-link {
+    font-size: 20px;
     display: block;
     padding: 0.5rem 1rem;
     color: snow !important;
@@ -96,8 +97,9 @@ p {
         transition: none;
     }
 }
-.nav-link:hover, .nav-link:focus {
-    color: white;
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #4F5A6E !important;
 }
 .nav-link.disabled {
     color: #6c757d;
@@ -204,9 +206,10 @@ brand.navbar > .container,
     font-weight: 700;
     text-decoration: none;
     white-space: nowrap;
+    padding: 2% 0% 2% 0%;
 }
 #imgLogo {
-    width: 160px;
+    width: 200px;
 }
 
 .navbar-nav {
@@ -237,7 +240,7 @@ brand.navbar > .container,
 
  .navbar-light .navbar-toggler {
     padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     line-height: 1;
     background-color: transparent;
     border: none;
@@ -284,8 +287,8 @@ brand.navbar > .container,
         position: absolute;
     }
     .navbar-expand-sm .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
     .navbar-expand-sm .navbar-nav-scroll {
         overflow: visible;
@@ -601,12 +604,18 @@ brand.navbar > .container,
     padding: 100px 50px 50px 50px;
     height: 750px;
 }
-.modal-content{
+.modal-content {
     top: 100px;
+    height: 100%;
+    padding: 35px;
 }
-.modal-body{
+.modal-dialog{
+    max-width: 70% !important;
+    height: 50%;
+}
+.modal-body {
     font-family: 'Architects Daughter', cursive;
-    font-size: 14pt;
+    font-size: 28pt;
     margin: 20px;
 }
 #buttonbox {
@@ -627,10 +636,12 @@ brand.navbar > .container,
 #openbtn:hover, #openbtn:focus,
 #closebtn:hover, #closebtn:hover{
     background-color: #4F5A6E;
+    opacity: 0.8;
     border: none;
 }
-#imgbtn{
-    width: 30%;
+#imgbtn {
+    width: 50%;
+    padding: 1%;
 }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 1080px) {
@@ -647,7 +658,7 @@ brand.navbar > .container,
 /* Medium to Large Devices, Desktops */
 @media only screen and (min-width: 1081px) and  (max-width: 1499px) {
     .masthead {
-        background-image: url("../img/backgroundphotos/al.jpg");
+        background-image: url("../img/backgroundphotos/als.jpg");
         background-repeat: no-repeat;
         background-position: left;
         background-size: cover;
@@ -672,7 +683,7 @@ section#gettingthere {
 span.mapdetail {
     margin-left: 20px;
     color: #4F5A6E;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .mapicon {
