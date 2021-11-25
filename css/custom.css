@@ -718,11 +718,22 @@ section#getintouch {
     width: 170px;
     padding: 8%;
 }
-.fa-facebook,
-.fa-envelope,
-.fa-phone{
+#facebookbtn .fa-facebook,
+#envelopebtn .fa-envelope,
+#phonebtn .fa-phone{
     margin: 3px;
     font-size: 44pt;
+}
+
+.contactdiv {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
 }
 
 section.contact ul.list-social li.social-email a,
