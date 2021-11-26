@@ -625,7 +625,7 @@ brand.navbar > .container,
 }
 .modal-body {
     font-family: 'Architects Daughter', cursive;
-    font-size: 16pt;
+    font-size: calc(1.1rem + 0.5vw);
     min-width: 360px;
 }
 #buttonbox {
