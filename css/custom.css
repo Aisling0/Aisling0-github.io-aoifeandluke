@@ -85,7 +85,7 @@ p {
     list-style: none;
 }
 .nav-link {
-    font-size: 20px;
+    font-size: 24px;
     display: block;
     padding: 0.5rem 1rem;
     color: snow !important;
@@ -436,9 +436,6 @@ brand.navbar > .container,
     }
     #imgLogo {
         width: 275px;
-    }
-    nav-link {
-        font-size: 30pt;
     }
     .modal-body {
         font-size: 18pt;
