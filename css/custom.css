@@ -611,7 +611,7 @@ brand.navbar > .container,
     height: 750px;
 }
 .modal-content {
-    height: 100%;
+    height: 90%;
     padding: 35px;
 }
 .modal-dialog{
