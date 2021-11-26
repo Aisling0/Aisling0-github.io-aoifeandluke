@@ -680,6 +680,12 @@ section#gettingthere {
     padding: 50px;
     height: 1059px;
 }
+.contactlink {
+    color: #4F5A6E;
+}
+.contactlink:hover {
+    color: snow;
+}
 #map {
     height: 620px;
     width: 100%;
