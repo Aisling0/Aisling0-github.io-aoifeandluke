@@ -440,6 +440,9 @@ brand.navbar > .container,
     nav-link {
         font-size: 30pt;
     }
+    .modal-body {
+        font-size: 18pt;
+    }
 }
 @media (min-width: 1200px) {
     .navbar-expand-xl {
@@ -616,11 +619,14 @@ brand.navbar > .container,
 }
 .modal-dialog{
     max-width: 70% !important;
-    height: 50%;
+    height: 90%;
+    min-width: 440px;
+    margin: auto;
 }
 .modal-body {
     font-family: 'Architects Daughter', cursive;
-    font-size: 18pt;
+    font-size: 16pt;
+    min-width: 360px;
 }
 #buttonbox {
     display: flex;
