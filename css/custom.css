@@ -434,6 +434,12 @@ brand.navbar > .container,
         padding: 0;
         overflow-y: visible;
     }
+    #imgLogo {
+        width: 275px;
+    }
+    nav-link {
+        font-size: 30pt;
+    }
 }
 @media (min-width: 1200px) {
     .navbar-expand-xl {
@@ -716,7 +722,7 @@ section#getintouch {
     font-size: 25pt;
     height: 170px;
     width: 170px;
-    padding: 8%;
+    margin: auto;
 }
 #facebookbtn .fa-facebook,
 #envelopebtn .fa-envelope,
