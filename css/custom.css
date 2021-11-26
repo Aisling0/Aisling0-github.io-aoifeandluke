@@ -611,7 +611,6 @@ brand.navbar > .container,
     height: 750px;
 }
 .modal-content {
-    top: 100px;
     height: 100%;
     padding: 35px;
 }
@@ -622,7 +621,6 @@ brand.navbar > .container,
 .modal-body {
     font-family: 'Architects Daughter', cursive;
     font-size: 18pt;
-    margin: 20px;
 }
 #buttonbox {
     display: flex;
