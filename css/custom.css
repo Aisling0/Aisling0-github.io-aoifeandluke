@@ -616,7 +616,7 @@ brand.navbar > .container,
 }
 .modal-dialog{
     max-width: 70% !important;
-    height: 90%;
+    height: 50%;
 }
 .modal-body {
     font-family: 'Architects Daughter', cursive;
