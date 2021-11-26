@@ -693,7 +693,7 @@ section#gettingthere {
 span.mapdetail {
     margin-left: 20px;
     color: #4F5A6E;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .mapicon {
@@ -709,8 +709,11 @@ section#stayingthere {
 .img-responsive{
     width: 100%;
 }
-.accommheader h3 a{
+.accommheader h2 a{
     color: #4F5A6E;
+}
+.accommheader p{
+    font-size: 20px;
 }
 /* Get in touch styling */
 section#getintouch {
